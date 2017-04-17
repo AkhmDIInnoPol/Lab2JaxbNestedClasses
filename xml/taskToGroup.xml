@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TaskToGroups>
+    <taskToGroups>
+        <id>5</id>
+        <task_id>1</task_id>
+        <study_group_id>1</study_group_id>
+        <is_active>true</is_active>
+        <end_date>2017-04-30T06:05:05.000+03:00</end_date>
+    </taskToGroups>
+    <taskToGroups>
+        <id>6</id>
+        <task_id>2</task_id>
+        <study_group_id>1</study_group_id>
+        <is_active>true</is_active>
+        <end_date>2017-04-29T04:03:03.000+03:00</end_date>
+    </taskToGroups>
+</TaskToGroups>

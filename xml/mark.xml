@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Marks>
+    <marks>
+        <id>1</id>
+        <is_deleted>false</is_deleted>
+        <student_id>1</student_id>
+        <task_id>1</task_id>
+        <criterion_id>1</criterion_id>
+        <points>10</points>
+    </marks>
+    <marks>
+        <id>2</id>
+        <is_deleted>false</is_deleted>
+        <student_id>2</student_id>
+        <task_id>2</task_id>
+        <criterion_id>1</criterion_id>
+        <points>10</points>
+    </marks>
+</Marks>

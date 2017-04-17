@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StudentActivities>
+    <studentActivities>
+        <id>8</id>
+        <student_id>1</student_id>
+        <lesson>
+            <id>1</id>
+            <study_group_id>1</study_group_id>
+            <lesson_date>2017-04-28T00:00:00.000+03:00</lesson_date>
+            <room>501</room>
+            <topic>Collections</topic>
+            <description>List</description>
+            <lesson_comment>good lesson</lesson_comment>
+            <token>t4e3</token>
+            <token_expiration>2017-04-29T00:00:00.000+03:00</token_expiration>
+            <is_deleted>false</is_deleted>
+        </lesson>
+        <activity_grade>5</activity_grade>
+        <activity_comment>enough active</activity_comment>
+        <is_deleted>false</is_deleted>
+    </studentActivities>
+    <studentActivities>
+        <id>9</id>
+        <student_id>2</student_id>
+        <lesson>
+            <id>1</id>
+            <study_group_id>1</study_group_id>
+            <lesson_date>2017-04-28T00:00:00.000+03:00</lesson_date>
+            <room>501</room>
+            <topic>Collections</topic>
+            <description>List</description>
+            <lesson_comment>good lesson</lesson_comment>
+            <token>t4e3</token>
+            <token_expiration>2017-04-29T00:00:00.000+03:00</token_expiration>
+            <is_deleted>false</is_deleted>
+        </lesson>
+        <activity_grade>5</activity_grade>
+        <activity_comment>enough active</activity_comment>
+        <is_deleted>false</is_deleted>
+    </studentActivities>
+</StudentActivities>

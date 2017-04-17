@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	 <xs:element name="Marks">
+		<xs:complexType>
+		  <xs:sequence>
+			<xs:element name="marks" type="Mark" minOccurs="0" maxOccurs="unbounded"/>
+		  </xs:sequence>
+		</xs:complexType>
+	  </xs:element>
+	  <xs:complexType name="Mark">
+		<xs:sequence>
+		  <xs:element name="id" type="xs:integer"/>
+		  <xs:element name="is_deleted" type="xs:boolean"/>
+		  <xs:element name="student_id" type="xs:integer"/>
+		  <xs:element name="task_id" type="xs:integer"/>
+		  <xs:element name="criterion_id" type="xs:integer"/>
+		  <xs:element name="points" type="xs:integer"/>
+		</xs:sequence>
+	  </xs:complexType>
+</xs:schema>

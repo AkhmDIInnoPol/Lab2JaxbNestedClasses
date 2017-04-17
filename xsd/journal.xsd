@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:include schemaLocation="lesson.xsd"/>	
+	
+	<xs:element name="Journals">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="journals" type="Journal" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="Journal">
+		<xs:sequence>
+			<xs:element name="id" type="xs:integer"/>
+			<xs:element name="lesson" type="Lesson"/>
+			<xs:element name="student_id" type="xs:integer"/>
+			<xs:element name="time_check" type="xs:dateTime"/>
+			<xs:element name="is_deleted" type="xs:boolean"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

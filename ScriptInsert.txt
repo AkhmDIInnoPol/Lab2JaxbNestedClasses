@@ -1,0 +1,161 @@
+INSERT INTO crm_user
+(login, user_password, first_name, last_name, email, is_active, is_deleted)
+VALUES ('userLogin1', '1234', 'dima', 
+        'petrov', 'petrov@mail.ru', 'true', 'false');
+
+
+INSERT INTO crm_user
+(login, user_password, first_name, last_name, email, is_active, is_deleted)
+VALUES ('userLogin2', '567', 'petya',
+        'ivanov', 'ivanov@mail.ru', 'true', 'false');
+
+
+
+
+
+INSERT INTO student
+(is_deleted, crm_user_id)
+VALUES ('false', 1);
+
+
+INSERT INTO student
+(is_deleted, crm_user_id)
+VALUES ('false', 2);
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO task
+(title, description, is_lab)
+VALUES ('collection project', 'do project with different collections',
+        'true');
+
+
+INSERT INTO task
+(title, description, is_lab)
+VALUES ('multy thread project', 'do project with several threads',
+        'true');
+
+
+
+
+
+INSERT INTO criterion
+(title, max_points, is_additional)
+VALUES ('functionality', 15, 'false');
+
+
+
+
+
+
+
+
+
+INSERT INTO criterion_to_task
+(task_id, criterion_id)
+VALUES (1, 1);
+
+INSERT INTO criterion_to_task
+(task_id, criterion_id)
+VALUES (2, 1);
+
+
+
+
+
+
+
+INSERT INTO mark
+(is_deleted, student_id, task_id, criterion_id, points)
+VALUES ('false', 1, 1, 1, 10);
+
+
+
+INSERT INTO mark
+(is_deleted, student_id, task_id, criterion_id, points)
+VALUES ('false', 2, 2, 1, 10);
+
+
+
+
+
+
+
+
+
+INSERT INTO study_group
+(name, description, is_deleted)
+VALUES ('STC05', 'java', 'false');
+
+
+
+
+
+
+
+
+INSERT INTO task_to_group
+(task_id, study_group_id, is_active, end_date)
+VALUES (1, 1, 'true', '2017-4-30');
+
+
+INSERT INTO task_to_group
+(task_id, study_group_id, is_active, end_date)
+VALUES (2, 1, 'true', '2017-4-29');
+
+
+
+
+
+
+
+
+
+INSERT INTO lesson
+(study_group_id,lesson_date,  room, topic, description, lesson_comment, token, token_expiration, is_deleted)
+VALUES (1,'2017-4-28', 501, 'Collections',
+        'List', 'good lesson', 't4e3',
+        '2017-4-29', 'false');
+
+
+
+
+
+
+INSERT INTO student_activity
+(student_id, lesson_id, activity_grade, activity_comment, is_deleted)
+VALUES (1, 1, 5,
+        'enough active', 'false');
+
+
+INSERT INTO student_activity
+(student_id, lesson_id, activity_grade, activity_comment, is_deleted)
+VALUES (2, 1, 5,
+        'enough active', 'false');
+
+
+
+
+
+
+INSERT INTO journal
+(lesson_id, student_id, time_check, is_deleted)
+VALUES (1, 1, '2017-4-28','false');
+
+
+
+
+INSERT INTO journal
+(lesson_id, student_id, time_check, is_deleted)
+VALUES (1, 2, '2017-4-28','false');
+
+
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="lesson.xsd"/>
+
+	<xs:element name="StudentActivities">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="studentActivities" type="StudentActivity" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="StudentActivity">
+		<xs:sequence>
+			<xs:element name="id" type="xs:integer"/>
+			<xs:element name="student_id" type="xs:integer"/>
+			<xs:element name="lesson" type="Lesson"/>
+			<xs:element name="activity_grade" type="xs:integer"/>
+			<xs:element name="activity_comment" type="xs:string"/>
+			<xs:element name="is_deleted" type="xs:boolean"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
