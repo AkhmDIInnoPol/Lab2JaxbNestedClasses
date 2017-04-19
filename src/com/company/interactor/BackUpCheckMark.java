@@ -44,20 +44,11 @@ public class BackUpCheckMark extends Thread
 
         buildMarkConnection();
 
-
-
-
-
-
         saveData();
 
         deleteTables();
 
         backupTables();
-
-
-
-
 
         connectionDB.closeConnection();
     }

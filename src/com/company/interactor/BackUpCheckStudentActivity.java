@@ -42,11 +42,6 @@ public class BackUpCheckStudentActivity extends Thread
 
         buildStudentActivityConnection();
 
-
-
-
-
-
         saveData();
 
         deleteTables();

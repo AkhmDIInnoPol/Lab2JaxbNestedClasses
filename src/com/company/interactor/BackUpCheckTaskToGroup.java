@@ -40,20 +40,11 @@ public class BackUpCheckTaskToGroup extends Thread
 
         buildTaskToGroupConnection();
 
-
-
-
-
-
-
         saveData();
 
         deleteTables();
 
         backupTables();
-
-
-
 
         connectionDB.closeConnection();
     }

@@ -1,0 +1,1 @@
+xjc -d src -p model.xjc someModel.xsd

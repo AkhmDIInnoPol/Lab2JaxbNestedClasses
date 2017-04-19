@@ -49,8 +49,6 @@ public class BackUpCheckJournal extends Thread
 
         buildJournalConnection();
 
-
-
         saveData();
 
         deleteTables();

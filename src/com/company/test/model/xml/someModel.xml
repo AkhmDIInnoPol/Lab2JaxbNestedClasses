@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SomeModels>
+    <someModels>
+        <intVal>3</intVal>
+        <doubleVal>3.52</doubleVal>
+        <boolVal>true</boolVal>
+        <stringVal>someWord</stringVal>
+    </someModels>
+</SomeModels>
